@@ -1,0 +1,117 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Courier New', monospace;
+     background: #000000;
+     transition: background 0.5s;
+ }
+
+ .container {
+     text-align: center;
+ }
+
+ .time {
+     font-size: 120px;
+     color: white;
+     font-weight: bold;
+     text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+     margin-bottom: 20px;
+ }
+
+ .hex {
+     font-size: 32px;
+     color: white;
+     text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+     margin-bottom: 30px;
+ }
+
+ .date {
+     font-size: 24px;
+     color: white;
+     text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+     letter-spacing: 2px;
+ }
+
+ /* Tablet devices */
+ @media (max-width: 1024px) {
+     .time {
+         font-size: 100px;
+     }
+
+     .hex {
+         font-size: 28px;
+     }
+
+     .date {
+         font-size: 20px;
+     }
+ }
+
+ /* Small tablets and large phones */
+ @media (max-width: 768px) {
+     .time {
+         font-size: 80px;
+     }
+
+     .hex {
+         font-size: 24px;
+     }
+
+     .date {
+         font-size: 18px;
+     }
+ }
+
+ /* Medium phones */
+ @media (max-width: 600px) {
+     .time {
+         font-size: 60px;
+     }
+
+     .hex {
+         font-size: 20px;
+     }
+
+     .date {
+         font-size: 14px;
+     }
+ }
+
+ /* Small phones */
+ @media (max-width: 480px) {
+     .time {
+         font-size: 50px;
+     }
+
+     .hex {
+         font-size: 16px;
+     }
+
+     .date {
+         font-size: 12px;
+     }
+ }
+
+ /* Very small phones */
+ @media (max-width: 360px) {
+     .time {
+         font-size: 40px;
+     }
+
+     .hex {
+         font-size: 14px;
+     }
+
+     .date {
+         font-size: 11px;
+     }
+ }
