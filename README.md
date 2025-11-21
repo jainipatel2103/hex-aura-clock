@@ -96,5 +96,5 @@ MIT License - Open source
 
 ## 👨‍💻 Author
 
-**Jai Patel** - [@jainipatel2103](https://github.com/jainipatel2103)
+**Jaini Patel** - [@jainipatel2103](https://github.com/jainipatel2103)
 
