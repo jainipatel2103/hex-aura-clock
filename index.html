@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="clock.png">
 
-   
+
 </head>
+
 <body>
+    <div class="copy-notification" id="notification">✓ Hex code copied to clipboard!</div>
+
     <div class="container">
         <div class="time" id="clock">00:00:00</div>
-        <div class="hex" id="color">#000000</div>
+
+        <div class="hex" id="color" title="Click to copy">#000000</div>
+        <div class="copy-label">👆 Click hex code to copy</div>
+
         <div class="date" id="date">Loading...</div>
+
+        <div class="description">
+            Time → Color. Every second, a new hue. Click hex to copy.
+        </div>
     </div>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
